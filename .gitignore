@@ -48,5 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
-# Node
-package-lock.json
+# Custom
+zNote
+*.txt
