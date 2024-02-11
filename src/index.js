@@ -8,6 +8,10 @@ const config = require('./app/config')
 // Express Configs
 require('./app/express')(app)
 
+// Routes
+app.use(require('./routes'))
+app.use(express.static('public'))
+
 // Error handler
 require('./app/errorHandler')(config.isProduction, app)
 
