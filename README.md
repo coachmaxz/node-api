@@ -1,2 +1,2 @@
 # node-api
-https://nextfusion.net/knowledge/nodejs/getting/new-project
+https://keptcode.com/node/getting/new-project
