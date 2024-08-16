@@ -8,6 +8,7 @@ router.get('/', async function (req, res, next) {
   })
 });
 
+// Path: /api/v1/example
 router.use('/example', require('./example.api'))
 
 module.exports = router

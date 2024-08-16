@@ -1,0 +1,527 @@
+{
+	"info": {
+		"_postman_id": "6508a604-34b0-418f-bb2b-254861e92f08",
+		"name": "Node API (2024-08-16)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2361559"
+	},
+	"item": [
+		{
+			"name": "Example",
+			"item": [
+				{
+					"name": "Method GET | Lists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/example",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"example"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Method GET | Lists",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/example",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"example"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "27"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1b-x9EwtBVIkls7YpXyCouF8qqtkU0\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 16 Aug 2024 13:07:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"OK\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Method GET | Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/example/1",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"example",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Method GET | Detail",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/example/1",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"example",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2d-Ur1uh1qN6LqFAWcYSZqYsCX6arU\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 16 Aug 2024 13:06:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"data\": {\n        \"id\": \"1\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Method POST | Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "KEPTCODE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/example",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"example"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Method POST | Create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "KEPTCODE",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{BASE_URL}}/example",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"example"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "59"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"3b-rXfeykwyu5RZ13tF+ed3ghj/kd4\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 16 Aug 2024 13:06:43 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 201,\n    \"message\": \"Created\",\n    \"data\": {\n        \"name\": \"KEPTCODE\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Method PUT | Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "KEPTCODE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/example/1",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"example",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Method PUT | Update",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "KEPTCODE",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{BASE_URL}}/example/1",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"example",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "59"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"3b-3EmY0/VXVhRdEsbLSDH1diIGrxo\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 16 Aug 2024 13:06:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Updated\",\n    \"data\": {\n        \"name\": \"KEPTCODE\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Method DELETE | Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/example/1",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"example",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Method DELETE | Delete",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "{{BASE_URL}}/example/1",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"example",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "50"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"32-yrUIX4qKWbBBwWFFbhNLJsY+7YQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 16 Aug 2024 13:08:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 204,\n    \"message\": \"Deleted\",\n    \"data\": {\n        \"id\": \"1\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Example",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}",
+					"host": [
+						"{{BASE_URL}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}",
+							"host": [
+								"{{BASE_URL}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "96"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"60-xlx1+6Rkz6CWEOxC2Af0lpSJN9Q\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 16 Aug 2024 13:02:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Last Updated: 2024-08-16 19:53 Version 0.0.1\",\n    \"datetime\": \"2024-08-16T13:02:10.152Z\"\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "http://127.0.0.1:3000/api/v1"
+		}
+	]
+}
