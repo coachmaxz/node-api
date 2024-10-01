@@ -3,7 +3,7 @@ const router = require('express').Router()
 // GET: /api/v1
 router.get('/', async function (req, res, next) {
   res.json({ 
-    message: 'Last Updated: 2024-08-16 19:53 Version 0.0.1',
+    message: 'Last Updated: 2024-10-01 17:45 Version 0.0.1',
     datetime: new Date(),
   })
 });

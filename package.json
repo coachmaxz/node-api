@@ -11,10 +11,10 @@
   "author": "Max Eakkabin Jaikeawma",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "custom-env": "^2.0.6",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "express-useragent": "^1.0.15",
     "express-validator": "^7.2.0",
     "morgan": "^1.10.0"
@@ -22,6 +22,6 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/node": "^7.25.0",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.7"
   }
 }
